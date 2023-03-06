@@ -1,0 +1,10 @@
+// tsconfig.node.json 是node里的 规则 ，tsconfig.json 是项目里的编译规则 vite 本身(包括配置)，在node内运行
+{
+	"compilerOptions": {
+		"composite": true,
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"allowSyntheticDefaultImports": true
+	},
+	"include": ["vite.config.ts"]
+}

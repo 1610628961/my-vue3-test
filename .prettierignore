@@ -1,0 +1,6 @@
+# 为Prettier忽略指定文件
+dist
+pnpm-lock.yaml
+LICENSE.md
+tsconfig.json
+tsconfig.*.json

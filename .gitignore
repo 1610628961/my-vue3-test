@@ -1,0 +1,25 @@
+# 这个文件的作用就是告诉Git哪些文件不需要添加到版本管理中。 意思就是本地修改完项目后,上传到github等版本管理服务中,本地哪些文件不上传过去
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
